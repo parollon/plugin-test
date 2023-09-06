@@ -1,4 +1,4 @@
-# Browser-url pluguin!
+# Browser-url plugin!
 ## Migracio del plugin
 
 ```bash
