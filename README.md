@@ -21,7 +21,7 @@ $ npx  @capacitor/plugin-migration-v4-to-v5@latest
 
 ### Problemes trobats
 
- 1.  No detecta els estils quan a capacitor sí
+ 1.  No detecta els estils quan a capacitor 4 sí
 ```
 /Users/use-itsl/Documents/IonicProjects/PluginTest/custom_plugins/browser-url/android/src/main/java/com/useit/browser/BrowserUrl.java:46: error: cannot find symbol
     setTheme(R.style.AppTheme_NoActionBar);
