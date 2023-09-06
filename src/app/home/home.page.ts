@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { BrowserUrl, ViewOptions } from 'custom_plugins/browser-url';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -8,5 +8,14 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+
+  runPlugin(){
+    let option: ViewOptions = {
+      title: 'PluginTest Webview',
+      color: '#F08014',
+      url: "https://capacitorjs.com/",
+    };
+    BrowserUrl.open(option);
+  }
 
 }
