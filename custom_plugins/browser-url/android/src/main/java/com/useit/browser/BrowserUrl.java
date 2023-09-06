@@ -43,7 +43,7 @@ public class BrowserUrl extends AppCompatActivity {
     String color = getIntent().getStringExtra("color");
     String title = getIntent().getStringExtra("title");
 
-    setTheme(R.style.AppTheme_NoActionBar);
+    setTheme(R.style.AppTheme_NoActionBar2);
 
     // Create the toolbar
     toolbar = new LinearLayout(this);
